@@ -28,6 +28,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
+          cache-dependency-path: Java-Monitoring-Project-main/pom.xml
       - name: Test the App (Java Monitoring app)
         run: |
           mvn test
